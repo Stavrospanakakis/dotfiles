@@ -10,30 +10,27 @@ following dependencies
 - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 - [Git](https://git-scm.com/downloads)
 - [Tmux](https://github.com/tmux/tmux)
+- [fzf](https://github.com/junegunn/fzf)
+- [Vim](https://www.vim.org/download.php)
+- [Vim Plug](https://github.com/junegunn/vim-plug)
 
-**Debian-based distros:**
-```bash
-$ apt-get install -y git zsh tmux
-```
 
 ## Info
 
 ### Zsh
-Zsh is using a custom theme called [`x`](./zsh/themes/x.zsh-theme). 
+Zsh is using a custom theme called [`x`](./zsh/themes/x.zsh-theme).
 
 Also, it uses the following plugins:
 - `git`
 - `zsh-autosuggestions`
-- `zsh-syntax-highlighting` 
+- `zsh-syntax-highlighting`
 
 
 ### Tmux
 Tmux has the mouse scrolling enabled. Also, the following keys are being replaced.
 - `ctrl-b` -> `ctrl-space`
-- `"` -> `|`
-- `%` -> `-`
 
-Last, typing the binding `ctrl-space-enter`, a new small window will be opened vertically. 
+Last, typing the binding `ctrl-space-enter`, a new small window will be opened vertically.
 
 ## Installation
 
