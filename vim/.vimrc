@@ -70,6 +70,9 @@ set incsearch
 " show a vertical line on 80 chars
 set colorcolumn=80
 
+" disable annoying coc startup warning
+let g:coc_disable_startup_warning = 1
+
 " function which trims whitespace
 fun! TrimWhitespace()
     let l:save = winsaveview()

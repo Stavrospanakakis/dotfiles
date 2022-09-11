@@ -28,5 +28,13 @@ rm -rf ~/.zshrc
 ln -s $(pwd)/zsh/.zshrc ~/.zshrc
 ln -s $(pwd)/zsh/themes/x.zsh-theme ~/.oh-my-zsh/themes
 
+# Vim
+
+# Delete old vim configuration
+rm -rf ~/.vim
+
+# Create symlinks for vim
+ln -s $(pwd)/vim/.vimrc ~/.vimrc
+
 # Run zsh
 zsh
