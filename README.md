@@ -10,6 +10,7 @@ following dependencies
 - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 - [Git](https://git-scm.com/downloads)
 - [Tmux](https://github.com/tmux/tmux)
+- [fzf](https://github.com/junegunn/fzf)
 
 **Debian-based distros:**
 ```bash
