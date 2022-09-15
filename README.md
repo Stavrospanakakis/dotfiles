@@ -13,6 +13,8 @@ following dependencies
 - [fzf](https://github.com/junegunn/fzf)
 - [Vim](https://www.vim.org/download.php)
 - [Vim Plug](https://github.com/junegunn/vim-plug)
+- [Node >=16](https://nodejs.org/en/download/)
+- [Bat](https://github.com/sharkdp/bat#installation)
 
 
 ## Info
