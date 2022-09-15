@@ -35,6 +35,7 @@ rm -rf ~/.vim
 
 # Create symlinks for vim
 ln -s $(pwd)/vim/.vimrc ~/.vimrc
+ln -s $(pwd)/vim/coc-config.json ~/.vim/coc-config.json
 
 # Run zsh
 zsh
