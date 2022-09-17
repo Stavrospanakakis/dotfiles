@@ -15,7 +15,8 @@ following dependencies
 - [Vim Plug](https://github.com/junegunn/vim-plug)
 - [Node >=16](https://nodejs.org/en/download/)
 - [Bat](https://github.com/sharkdp/bat#installation)
-
+- [Brew](https://brew.sh/)
+- [iTerm2](https://iterm2.com/)
 
 ## Info
 
@@ -30,7 +31,7 @@ Also, it uses the following plugins:
 
 ### Tmux
 Tmux has the mouse scrolling enabled. Also, the following keys are being replaced.
-- `ctrl-b` -> `ctrl-space`
+- `ctrl-b` -> `ctrl-a`
 
 Last, typing the binding `ctrl-space-enter`, a new small window will be opened vertically.
 
@@ -46,3 +47,6 @@ cd dotfiles
 sh install.sh
 ```
 
+Then import `iterm/colors.itermcolors` to iTerm2.
+
+Finally, run into vim the following command `:CocInstall coc-go coc-html coc-css coc-tsserver coc-python coc-tabnine`
