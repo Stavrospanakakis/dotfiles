@@ -8,4 +8,7 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
+
 source $ZSH/oh-my-zsh.sh
+
