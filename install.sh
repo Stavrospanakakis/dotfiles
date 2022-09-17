@@ -14,7 +14,7 @@ ln -s $(pwd)/tmux/.tmux.conf ~/.tmux.conf
 rm -rf ~/.oh-my-zsh ~/.zshrc
 
 # Install oh-my-zsh
-wget https://github.com/ohmyzsh/ohmyzsh/raw/master/tools/install.sh -O - | zsh || true
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 
 # Install autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -31,10 +31,11 @@ ln -s $(pwd)/zsh/themes/x.zsh-theme ~/.oh-my-zsh/themes
 # Vim
 
 # Delete old vim configuration
-rm -rf ~/.vim
+rm -rf ~/.vim ~/.vimrc
 
 # Create symlinks for vim
 ln -s $(pwd)/vim/.vimrc ~/.vimrc
+mkdir ~/.vim
 ln -s $(pwd)/vim/coc-config.json ~/.vim/coc-config.json
 
 # Run zsh
